@@ -16,7 +16,6 @@
 - [Business Problem](#Business-Problem)
 - [Snowflake](#Snowflake)
 - [Dbt core](#dbt-core)
-- [Documentation](#documentation)
 - [Resources](#resources)
 - [Author](#smiley_cat-author)
 
@@ -186,11 +185,6 @@ And the final views and tables are created in the analytics database within snow
 
 ![img](assets/snowf3.png)
 
-
-
-# Documentation
-
-Documentation for this project has been created by using dbt and documentation [link](http://localhost:8080/#!/source_list/jaffle_shop) can be found here.
 
 
 ## Resources:
