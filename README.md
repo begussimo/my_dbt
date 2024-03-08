@@ -164,12 +164,13 @@ select * from raw.jaffle_shop.orders;
 select * from raw.stripe.payment;   
 
 ```
-Here is the final table that has been used in the final analysis:
+Here are the raw tables that have been used in the dbt project:
 
-![img](assets/join1.png)
+![img](assets/snowf4.png)
 
-![img](assets/join2.png)
+![img](assets/snowf5.png)
 
+![img](assets/snowf6.png)
 
 # dbt core 
 
