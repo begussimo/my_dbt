@@ -5,7 +5,7 @@
 # Dbt Project
 
 
-![Badge](https://img.shields.io/badge/-%23FF694B?style=for-the-badge&logo=%23FF694B&label=dbt&labelColor=%23FF694B&color=%23FF894B)
+![Badge](https://img.shields.io/badge/-dbt?style=for-the-badge&logo=dbt&logoColor=dbt&label=dbt)
 ![Badge](https://img.shields.io/badge/Snowflake-%2329B5E8?&style=for-the-badge&logo=Snowflake&logoColor=white)
 
 
