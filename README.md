@@ -27,27 +27,26 @@ This project aims to enhance data analytics efficiency by combining dbt (Data Bu
 
 Key Objectives:
 
-Implement dbt to automate data transformation processes.
-Integrate Snowflake as the primary data warehouse for scalability and performance.
-Establish version-controlled data modeling framework for transparency and collaboration.
-Develop analytical models to generate actionable insights.
-Enable self-service analytics through user-friendly dashboards.
+- Implement dbt to automate data transformation processes.
+- Integrate Snowflake as the primary data warehouse for scalability and performance.
+- Establish version-controlled data modeling framework for transparency and collaboration.
+- Develop analytical models to generate actionable insights.
 
 Project Phases:
 
-Planning and Setup: Define project scope, assess existing infrastructure, and configure Snowflake and dbt.
-Data Modeling: Develop dbt models to transform raw data into curated datasets.
-Quality Assurance: Test dbt models and data transformations for accuracy and completeness.
-Deployment: Roll out dbt models into production, conduct user training, and monitor performance.
-Governance: Implement data governance policies and security measures for compliance.
+- Planning and Setup: Define project scope, assess existing infrastructure, and configure Snowflake and dbt.
+- Data Modeling: Develop dbt models to transform raw data into curated datasets.
+- Quality Assurance: Test dbt models and data transformations for accuracy and completeness.
+- Deployment: Roll out dbt models into production, conduct user training, and monitor performance.
+
 
 Benefits:
 
-Agility: Agile data transformation workflows enable quick adaptation to changing needs.
-Scalability: Snowflake's architecture accommodates growing data volumes and workloads.
-Accelerated Insights: Automated data transformation provides faster access to reliable datasets.
-Collaboration: Version-controlled modeling fosters collaboration among data teams.
-Cost Savings: Streamlined operations reduce manual effort and infrastructure costs.
+- Agility: Agile data transformation workflows enable quick adaptation to changing needs.
+- Scalability: Snowflake's architecture accommodates growing data volumes and workloads.
+- Accelerated Insights: Automated data transformation provides faster access to reliable datasets.
+- Collaboration: Version-controlled modeling fosters collaboration among data teams.
+- Cost Savings: Streamlined operations reduce manual effort and infrastructure costs.
 
 The architectural framework of the project is thoughtfully segmented into three main components, as follows:
 
