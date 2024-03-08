@@ -3194,3 +3194,46 @@ with tables as (
 [0m16:56:46.180836 [debug] [MainThread]: Connection 'raw.information_schema' was properly closed.
 [0m16:56:46.181158 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107436d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107ed78d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1070e94d0>]}
 [0m16:56:46.181522 [debug] [MainThread]: Flushing usage events
+[0m17:01:27.580221 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10761e690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1078f1450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107703150>]}
+
+
+============================== 17:01:27.589927 | 9c3490e0-76b3-4a0f-8f4e-68580cbd6108 ==============================
+[0m17:01:27.589927 [info ] [MainThread]: Running with dbt=1.7.8
+[0m17:01:27.590483 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/begumkoca/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': '/Users/begumkoca/Documents/GitHub/my_dbt/logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt docs serve', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m17:01:27.892276 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9c3490e0-76b3-4a0f-8f4e-68580cbd6108', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1085bea50>]}
+[0m17:01:27.948709 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '9c3490e0-76b3-4a0f-8f4e-68580cbd6108', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1085beb50>]}
+[0m09:50:25.748665 [error] [MainThread]: Encountered an error:
+
+[0m09:50:25.762058 [error] [MainThread]: Traceback (most recent call last):
+  File "/Users/begumkoca/Documents/GitHub/my_dbt/.venv/lib/python3.11/site-packages/dbt/cli/requires.py", line 91, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/begumkoca/Documents/GitHub/my_dbt/.venv/lib/python3.11/site-packages/dbt/cli/requires.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/begumkoca/Documents/GitHub/my_dbt/.venv/lib/python3.11/site-packages/dbt/cli/requires.py", line 169, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/begumkoca/Documents/GitHub/my_dbt/.venv/lib/python3.11/site-packages/dbt/cli/requires.py", line 198, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/begumkoca/Documents/GitHub/my_dbt/.venv/lib/python3.11/site-packages/dbt/cli/requires.py", line 245, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/begumkoca/Documents/GitHub/my_dbt/.venv/lib/python3.11/site-packages/dbt/cli/main.py", line 324, in docs_serve
+    results = task.run()
+              ^^^^^^^^^^
+  File "/Users/begumkoca/Documents/GitHub/my_dbt/.venv/lib/python3.11/site-packages/dbt/task/serve.py", line 28, in run
+    httpd.serve_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socketserver.py", line 233, in serve_forever
+    ready = selector.select(poll_interval)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+[0m09:50:25.776786 [debug] [MainThread]: Resource report: {"command_name": "serve", "command_wall_clock_time": 5131.998, "process_user_time": 2.068674, "process_kernel_time": 0.488805, "process_mem_max_rss": "128565248", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m09:50:25.778836 [debug] [MainThread]: Command `dbt docs serve` failed at 09:50:25.778499 after 5132.00 seconds
+[0m09:50:25.779863 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107d5c910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1076f3fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107994790>]}
+[0m09:50:25.781137 [debug] [MainThread]: Flushing usage events
