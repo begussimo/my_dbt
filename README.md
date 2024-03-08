@@ -1,5 +1,5 @@
 <div align="center">
-<img src="/Users/begumkoca/Documents/GitHub/my_dbt/assests/Dbt.png" alt="drawing" width="400"/> <br />
+<img src="assets/Dbt.png" alt="drawing" width="400"/> <br />
 
 
 # Dbt Project
